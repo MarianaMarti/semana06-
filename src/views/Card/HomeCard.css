@@ -1,0 +1,53 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    max-height: 100vh;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    color: rgb(222, 222, 222);
+    border-radius: 0px;
+}
+
+.Container h1 {
+    font-size: 3.4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.Container p {
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-align: center;
+}
+.Container .btn {
+    display: flex;
+    justify-content: center;
+}
+.Container a {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #1d346a;
+    color: rgb(230, 227, 227);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.Container a:hover {
+    background: #335f95
+}
+
+@media (max-width: 500px) {
+    .Container h1 {
+        font-size: 2.7rem;
+        max-width: 500px;
+    }
+}

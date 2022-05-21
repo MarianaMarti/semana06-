@@ -1,0 +1,21 @@
+.Footer #cadastro {
+    margin-top: 14px;
+    font-size: 1.4rem;
+    margin-bottom: 1px;
+}
+
+footer a {
+    color: #4868b3;
+}
+
+@media (max-width: 500px) {
+    #cadastro {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    #cadastro {
+        font-size: 1.3rem;
+    }
+}
